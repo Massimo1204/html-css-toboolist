@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+}
+h2{
+    margin: 0;
+    padding-top: 30px;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    padding-left: 50px;
+}
+
+header{
+    height: 60px;
+    background-color: white;
+}
+
+.logo{
+    vertical-align: 30%;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.primo{
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.secondo{
+    height: 100px;
+}
+
+.bottoni{
+    padding-top: 15px;
+}
+.bottone-add{
+    padding: 5px 11px;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 2px;
+    color: white;
+}
+
+.section{
+    background-color: white;
+    color: lightgrey;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+}
