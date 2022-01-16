@@ -2,23 +2,29 @@
     box-sizing: border-box;
 }
 
+/* FONT COLORE E POSIZIONE */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
+    background-color: #F6F8F9;
     margin: 0;
 }
+
+/* POSIZIONE TITOLO */
 h2{
     margin: 0;
     padding-top: 30px;
 }
+
+/* GRANDEZZA E POSIZIONE SEZIONI E COLORE */
 .container{
     margin: 0 auto;
     width: 70%;
-    height: 200px;
+    height: 250px;
     background-color: white;
     padding-left: 50px;
 }
 
+/* DIMESIONI TITOLO LOGO */
 header{
     height: 60px;
     background-color: white;
@@ -30,6 +36,7 @@ header{
     font-weight: 700;
 }
 
+/* DIMENSIONI SEZIONI */
 .primo{
     height: 50px;
     margin-top: 50px;
@@ -41,16 +48,20 @@ header{
     height: 100px;
 }
 
+.terzo{
+    height: 290px;
+}
+
+/* BOTTONI ADD */
 .bottoni{
     padding-top: 15px;
 }
+
 .bottone-add{
-    padding: 5px 11px;
+    padding: 7px 13px;
     border-radius: 5px;
-    background-color: deepskyblue;
-    border-style: solid;
-    border-color: deepskyblue;
-    border-width: 2px;
+    background-color: #47ADF1;
+    border-style: hidden;
     color: white;
 }
 
@@ -60,17 +71,65 @@ header{
     border-style: solid;
     border-color: lightgrey;
     border-width: 2px;
+    padding: 5px 11px;
 }
+
+/* STILE LISTE */
 ul{
     list-style: none;
+    padding-left: 0px;
 }
+
+li{
+    margin-bottom: 20px;
+}
+
 li:before{
     content: '\2713';
     border-radius: 50%;
-    color: green;
-    border-color: green;
+    color: #7ECBB8;
+    border-color: #7ECBB8;
     border-style: solid;
     border-width: 2px;
     padding : 3px 6px;
+    margin-right: 10px;
+}
 
+.x::before{
+    content: '\2715';
+    color: #EC655E;
+    border-color: #EC655E;
+}
+
+/* FORMA E COLORE BOTTONI DELLE LISTE */
+.button{
+    padding: 7px 13px;
+    border-radius: 11px;
+    border-style: hidden;
+    color: white;
+}
+
+.editorial{
+    background-color: #47ADF1; 
+}
+
+.goals
+{
+    background-color: #9C72E4;
+}
+.recruiting
+{
+    background-color: #64C0A9;
+}
+.mobile
+{
+    background-color: #F29E33;
+}
+.website
+{
+    background-color: #D863A1;
+}
+.sales
+{
+    background-color: #B0C926;
 }
